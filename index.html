@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>جدول قطعات پروژه پرتاب توپ پینگ‌پونگ</title>
+
+  <style>
+    :root{
+      --bg: #1f1f1f;
+      --panel: #262626;
+      --grid: #d9d9d9;
+      --head: #2f6f2f;      
+      --text: #f2f2f2;
+      --muted: #cfcfcf;
+      --accent: #d4c55b;   
+    }
+
+    body{
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Vazirmatn", "IRANSans", Arial, sans-serif;
+      line-height: 1.8;
+      padding: 24px;
+    }
+
+    .wrap{
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section{
+      background: transparent;
+      margin: 0 0 28px 0;
+    }
+
+    .section-title{
+      background: var(--head);
+      color: #fff;
+      padding: 14px 16px;
+      font-weight: 700;
+      border: 2px solid var(--grid);
+      border-bottom: 0;
+      border-radius: 10px 10px 0 0;
+      font-size: 18px;
+    }
+
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 2px solid var(--grid);
+      border-radius: 0 0 10px 10px;
+      overflow: hidden;
+    }
+
+    thead th{
+      background: var(--head);
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 12px;
+      border: 1px solid var(--grid);
+      text-align: center;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    tbody td{
+      padding: 10px 12px;
+      border: 1px solid var(--grid);
+      vertical-align: top;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    tbody tr:hover td{
+      background: #2c2c2c;
+    }
+
+    .muted{
+      color: var(--muted);
+    }
+
+    .col-group   { width: 14%; }
+    .col-part    { width: 14%; }
+    .col-spec    { width: 34%; }
+    .col-method  { width: 18%; }
+    .col-count   { width: 10%; text-align:center; white-space: nowrap; }
+    .col-doc     { width: 10%; }
+
+    .hl{
+      background: rgba(212, 197, 91, 0.18);
+      padding: 2px 6px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    @media print{
+      body{ background: #fff; color:#000; }
+      .section-title{ color:#fff; }
+      table{ background:#fff; }
+      tbody td{ color:#000; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1 style="text-align: center;">Catalog of Project</h1>
+
+    <div class="section">
+      <div class="section-title">بخش پرتابگر</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-group">نام مجموعه</th>
+            <th class="col-part">نام قطعه</th>
+            <th class="col-spec">مشخصه / مقدار / توضیح</th>
+            <th class="col-method">روش ساخت / آدرس محل خرید</th>
+            <th class="col-count">تعداد مورد نیاز</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>بخش پرتابگر</td>
+            <td>فنر</td>
+            <td>فنر استیل فشاری،  ضریب سختی تقریبی <span class="hl">k≈60 N/m</span></td>
+            <td>خرید از فروشگاه قطعات مکانیکی</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پرتابگر</td>
+            <td>لوله پرتاب</td>
+            <td>لوله شفاف PVC/پلکسی، قطر داخلی مناسب توپ پینگ‌پونگ </td>
+            <td>خرید از بازار تأسیسات / لوله‌فروشی</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پرتابگر</td>
+            <td>نگهدارنده فنر</td>
+            <td>قطعه نگهدارنده فنر مطابق ابعاد طراحی‌شده</td>
+            <td>خرید از بازار تأسیسات</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پرتابگر</td>
+            <td>اهرم رهاساز</td>
+            <td>اهرم مکانیکی برای آزادسازی فنر و شروع پرتاب</td>
+            <td>خرید از بازار تأسیسات</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-title">بخش الکتریکی</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-group">نام مجموعه</th>
+            <th class="col-part">نام قطعه</th>
+            <th class="col-spec">مشخصه / مقدار / توضیح</th>
+            <th class="col-method">روش ساخت / آدرس محل خرید</th>
+            <th class="col-count">تعداد مورد نیاز</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>Arduino Uno</td>
+            <td>برد کنترل مرکزی سیستم (پردازش و ارسال فرمان به سرووها)</td>
+            <td>خرید از فروشگاه الکترونیک/رباتیک</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>سرووموتور کشنده</td>
+            <td>سرووموتور گشتاور متوسط برای فشرده‌سازی فنر (مثلاً 5–10 kg·cm)</td>
+            <td>خرید از فروشگاه رباتیک</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>سرووموتور زاویه</td>
+            <td>سرووموتور استاندارد برای تنظیم زاویه پرتاب</td>
+            <td>خرید از فروشگاه رباتیک</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>آداپتور تغذیه</td>
+            <td>آداپتور AC 220V به DC 5–6V با جریان حداقل <span class="hl">3A</span></td>
+            <td>خرید از فروشگاه الکترونیک</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>کلید فشاری</td>
+            <td>Push Button برای فرمان شروع/پرتاب</td>
+            <td>خرید از فروشگاه الکترونیک</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش الکتریکی</td>
+            <td>سیم و جامپر</td>
+            <td>سیم افشان، جامپر مادگی/نری برای اتصالات داخلی</td>
+            <td>خرید از فروشگاه الکترونیک</td>
+            <td class="col-count">به مقدار لازم</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-title">بخش پایه و سازه</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-group">نام مجموعه</th>
+            <th class="col-part">نام قطعه</th>
+            <th class="col-spec">مشخصه / مقدار / توضیح</th>
+            <th class="col-method">روش ساخت / آدرس محل خرید</th>
+            <th class="col-count">تعداد مورد نیاز</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>بخش پایه</td>
+            <td>صفحه پایه</td>
+            <td>صفحه MDF یا پلکسی، ضخامت 8–12mm (برای استقرار روی میز)</td>
+            <td>خرید از نجار</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پایه</td>
+            <td>ستون نگهدارنده</td>
+            <td>ستون برای نگهداری مکانیزم و تنظیم ارتفاع</td>
+            <td>چاپ سه‌بعدی یا لوله فلزی/آلومینیومی</td>
+            <td class="col-count">1 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پایه</td>
+            <td>پایه سرووموتور</td>
+            <td>براکت/نگهدارنده سرووموتورها (مطابق ابعاد سروو)</td>
+            <td>برش ورق</td>
+            <td class="col-count">2 عدد</td>
+          </tr>
+          <tr>
+            <td>بخش پایه</td>
+            <td>پیچ اتصال</td>
+            <td>پیچ و مهره استیل M3/M4 (برای مونتاژ اجزا)</td>
+            <td>خرید از ابزارفروشی</td>
+            <td class="col-count">به مقدار لازم</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
